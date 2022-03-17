@@ -1,0 +1,27 @@
+#include<iostream>
+usin namespace std;
+int main()
+{
+int arr[100];
+int i,max,min,size;
+cout<<"Enter size of array:-"
+cin>>size;
+cout<<"Enter lement in the array:-"
+for(i=0;i<size;i++)
+{
+sin>>arr[i];
+}
+max= arr[0];
+min=arr[1];
+for(i=0;i<size;i++)
+{
+max>arr[i];
+}
+if(arr[i]<min)
+{
+min>arr[i];
+}
+cout<<"maximum element:-"<<min<<endl;
+cout<<"minmum element:-"<<max;
+return 0;
+}
